@@ -5,8 +5,8 @@
     .
     ├── test                    # test scripts live here
     │   ├── test_dummy.py       # a dummy test script
-    ├── requirements.txt        # dependecies
-    └── README.md
+    ├── README.md               # readme
+    └── requirements.txt        # dependecies
     
     
 ### jenkins job
