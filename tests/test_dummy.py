@@ -7,7 +7,7 @@ def syscall(cmd):
 
 def test_compilation():
     result = syscall("echo compilation...")
-    assert result == None
+    assert result == 'poipoi'
     
 def test_bootload():
     result = syscall("echo bootload...")
