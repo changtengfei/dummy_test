@@ -3,7 +3,7 @@
 ### directory layout
 
     .
-    ├── test                    # test scripts live here
+    ├── tests                   # test scripts live here
     │   ├── test_dummy.py       # a dummy test script
     ├── README.md               # readme
     └── requirements.txt        # dependecies
