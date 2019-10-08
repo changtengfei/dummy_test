@@ -15,4 +15,4 @@ def test_bootload():
     
 def test_communication():
     result = syscall("echo communication...")
-    assert result == 1
+    assert result == None
