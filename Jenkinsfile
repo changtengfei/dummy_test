@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label { 'windows && a102' }
+        label 'windows && a102'
     }
     stages {
         stage('Build') {
