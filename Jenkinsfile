@@ -5,8 +5,13 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                bat 'pytest'
+                bat 'pytest --junitxml=report.xml'
             }
+        }
+    }
+    post {
+        always {
+            junit 'report.xml'
         }
     }
 }
